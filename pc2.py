@@ -17,10 +17,10 @@ cwd = str(os.getcwd())
 #numero_de_grupo = str(os.environ.get('GROUP_NUMBER'))
 
 #Descarga de la aplicacion 
-call(['sudo git clone https://github.com/CDPS-ETSIT/practica_creativa2.git'], shell=True)
+call(['git clone https://github.com/CDPS-ETSIT/practica_creativa2.git'], shell=True)
 
 #INSTALACION DE REQUIRMENTS CON PIP
-call(['pip3 install -r '+cwd+'/practica_creativa2/bookinfo/src/productpage/requirements.txt'], shell=True)
+call(['pip3 install -r /practica_creativa2/bookinfo/src/productpage/requirements.txt'], shell=True)
 
 #MODIFICA EL TITULO
 #call(['cp '+cwd+'/practica_creativa2/bookinfo/src/productpage/templates/productpage.html '+cwd+'/practica_creativa2/bookinfo/src/productpage/templates/productpage2.html'], shell=True)
